@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Chirag's Responsive Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+    <header class="main-header">
+        <div class="logo">My Portfolio</div>
+        <nav class="main-nav">
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-text">
+                <h1>Hi, I am</h1>
+                <h2 class="animated-text">Full Stack Developer</h2>
+                <p>Building modern web applications with MERN stack.</p>
+            </div>
+            
+            <div class="hero-image-container">
+                <img src="Vaishnavi.jpeg" alt="Profile Picture of Vaishnavi" class="profile-image">
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h3>About Me</h3>
+            <p>
+                Hello! My name is Vaishnavi Jha, and I am currently a web development student. I am passionate about learning web development and building creative projects. This is my first responsive portfolio website where I showcase my passion for creating interactive and responsive web pages. I am dedicated to enhancing my knowledge and skills. I love exploring new technologies every day, and I always strive to improve my knowledge. With a hardworking and consistent mindset, I am determined to grow as a developer and build modern projects that make a real impact.
+            </p>
+        </section>
+
+
+        <section id="skills" class="skills-section">
+            <h3>My Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h4>HTML</h4>
+                    <p>Competent</p>
+                </div>
+                <div class="skill-card">
+                    <h4>CSS</h4>
+                    <p>Beginner</p>
+                </div>
+                <div class="skill-card">
+                    <h4>JavaScript</h4>
+                    <p>Learning</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="projects" class="projects-section">
+            <h3>My Projects</h3>
+            <div class="projects-container">
+                <div class="project-card">
+                    <h4>Project 1</h4>
+                    <p>A simple HTML & CSS webpage.</p>
+                </div>
+                <div class="project-card">
+                    <h4>Project 2</h4>
+                    <p>Another awesome mini project.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact" class="contact-section">
+            <h3>Contact Me</h3>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="write your message" required></textarea>
+
+                <button type="submit" class="submit-button">Send</button>
+            </form>
+        </section>
+    </main>
+  
+    <footer class="main-footer">
+        <p>© 2025 Vaishnavi | All rights reserved.</p>
+    </footer>
+
+    <a href="#hero" id="back-to-top">↑ Back to Top</a>
+</body>
+</html>
